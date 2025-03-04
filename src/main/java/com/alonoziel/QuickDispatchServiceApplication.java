@@ -1,7 +1,11 @@
 package com.alonoziel;
 
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
 public class QuickDispatchServiceApplication {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        SpringApplication.run(QuickDispatchServiceApplication.class, args);
     }
 }
