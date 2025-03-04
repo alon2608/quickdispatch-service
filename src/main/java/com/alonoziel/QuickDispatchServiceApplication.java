@@ -1,6 +1,6 @@
-package org.example;
+package com.alonoziel;
 
-public class Main {
+public class QuickDispatchServiceApplication {
     public static void main(String[] args) {
         System.out.println("Hello world!");
     }
